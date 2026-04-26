@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.571" height="17" viewBox="0 0 14.571 17">
+  <g id="Path_3" data-name="Path 3" transform="translate(0 3.238)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0,0H14.571L12.952,13.762H1.619Z" stroke="none"/>
+    <path d="M 1.124546051025391 1.000001907348633 L 2.508293151855469 12.76190185546875 L 12.06313514709473 12.76190185546875 L 13.4468822479248 1.000001907348633 L 1.124546051025391 1.000001907348633 M 3.814697265625e-06 1.9073486328125e-06 L 14.57142448425293 1.9073486328125e-06 L 12.95238399505615 13.76190280914307 L 1.619044303894043 13.76190280914307 L 3.814697265625e-06 1.9073486328125e-06 Z" stroke="none" fill="#f27979"/>
+  </g>
+  <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(3)" fill="none" stroke="#f27979" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+    <rect width="8" height="4" stroke="none"/>
+    <rect x="0.5" y="0.5" width="7" height="3" fill="none"/>
+  </g>
+</svg>

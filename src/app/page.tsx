@@ -1,6 +1,30 @@
+import { DetailsCard, Details } from "@/src/components/DetailsCard"
+import { DateDivider } from "../components/DateDivider";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">Hello World of next js</div>
+    <main className="">
+
+      <DetailsCard>
+          <Details
+          name="Iphone 11 Pro Max"
+          imei={35478941254785632456}
+          battery={88}
+          storage={256}
+          storageUnit="GB"
+          />
+      </DetailsCard>
+      
+      <DetailsCard>
+          <Details
+          name="Iphone 11 Pro Max"
+          imei={35478941254785632456}
+          battery={88}
+          storage={256}
+          storageUnit="GB"
+          />
+      </DetailsCard>
+      <DateDivider date="10 am - 12 Nov, 2026" />
+    </main>
   );
 }

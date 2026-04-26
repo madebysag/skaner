@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17">
+  <g id="Group_1" data-name="Group 1" transform="translate(-255 228) rotate(-90)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(211 255)" fill="none" stroke="gray" stroke-width="1">
+      <rect width="15" height="10" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="14" height="9" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(225 258)" fill="none" stroke="gray" stroke-width="1">
+      <rect width="3" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="2" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(213 257)" fill="gray" stroke="gray" stroke-width="1">
+      <rect width="8" height="6" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="5" rx="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>
