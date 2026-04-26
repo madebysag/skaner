@@ -1,0 +1,5 @@
+.fading_shadow {
+    position: relative;
+    box-shadow: 0 10px 20px hsla(0,0,97,0.8);
+    z-index: 10;
+}

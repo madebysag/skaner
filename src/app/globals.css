@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: hsl(0, 0, 50)
+  --primary-color: hsl(0, 0, 50)
 }
 
 @layer {
@@ -13,4 +13,5 @@
     color: var(--primary-color);
   }
 }
+
 

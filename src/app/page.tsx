@@ -3,7 +3,7 @@ import { DateDivider } from "../components/DateDivider";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="max-w-md md:w-full flex flex-col items-center mx-auto">
 
       <DetailsCard>
           <Details

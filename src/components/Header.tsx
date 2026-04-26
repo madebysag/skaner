@@ -3,7 +3,7 @@ import { Icon } from "@/src/components/Utils"
 import { SearchMenu } from "@/src/components/SearchMenu"
 
 export const Header = ({ username, storeName} : {username: string, storeName: string}) => {
-    return <header className="">
+    return <header className="sticky top-0 bg-[hsl(0,0,97)]">
         <div className="border-b border-b-[hsl(0,0,75)] px-10 flex items-center justify-between">
             <div className="py-4 flex items-baseline">
                 <h3 className="text-lg font-bold px-4 tracking-widest">

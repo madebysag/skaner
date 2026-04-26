@@ -18,7 +18,7 @@ export default function RootLayout({
       lang="en"
       className="h-full antialiased"
     >
-      <body className="min-h-full text-sm text-[hsl(0,0,50)]">
+      <body className="min-h-full text-sm">
         <Header username="Junior" storeName="Saheed Shop"/>
         {children}
         </body>

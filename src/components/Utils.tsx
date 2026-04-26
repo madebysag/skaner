@@ -13,12 +13,13 @@ export const Icon = (
 }
 
 export const Button = (
-    { children, type } : { 
+    { children, type = "secondary" } : { 
         children : React.ReactNode,
-        type : string
-     }
-) => {
-    return <button className={type}>
+        type? : string
+    }) => {
+    const otherClasses = type == "secondary" ? "underline underline-offset-2" : "bg-white rounded-xl border border-[hsl(0,0,75)]"
+
+    return  <button className={`flex items-center decoration-[hsl(0,0,75)] hover:opacity-85 cursor-pointer px-6 py-2 ${otherClasses}`}>
         { children }
     </button>
 }
