@@ -21,8 +21,8 @@ export const Details = ({name, imei, battery, storage, storageUnit = "GB", color
         ></div>
         <div className="px-2">
             <div className="flex items-center">
-                <span className="text-sm px-1.5 text-[hsl(0,0,25)]" >{name}</span> ●
-                <span className="text-sm px-1.5 flex items-center"><Icon name="battery" extension="svg" /> &nbsp; {battery}%</span> ●
+                <span className="text-sm px-1.5 text-[hsl(0,0,25)]" >{name}</span> <span className="text-[hsl(0,0,75)]">●</span>
+                <span className="text-sm px-1.5 flex items-center"><Icon name="battery" extension="svg" /> &nbsp; {battery}%</span> <span className="text-[hsl(0,0,75)]">●</span>
                 <span className="text-sm px-1.5 flex items-center"><Icon name="storage" extension="svg" /> &nbsp; {storage + " " + storageUnit}</span>
             </div>
             <div className="text-lg">{imei}</div>

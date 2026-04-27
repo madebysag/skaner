@@ -1,0 +1,17 @@
+.comment {
+    position: relative;
+    border-left: 1px solid hsl(0,0,75);
+    padding: 0 0 36px 24px;
+}
+
+.comment::before {
+    content: "";
+    background-color: hsl(0,0,97);
+    border: 1px solid hsl(0,0,75);
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: -8px;
+    z-index: 0;
+}
