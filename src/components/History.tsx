@@ -1,5 +1,5 @@
 export const History = () => {
-    return <div className="">
-        Histor Loading
+    return <div className="hidden">
+        History Loading
     </div>
 }

@@ -9,7 +9,7 @@ export const SearchMenu = () => {
         >
         <Button>Search and Filter</Button>
         <Button type="primary" >
-            <Icon name="plus" extension="svg" />
+            <Icon name="plus" extension="svg" height={18} />
             &nbsp;
             Add Record
         </Button>
