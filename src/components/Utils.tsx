@@ -1,4 +1,6 @@
+
 import Image from "next/image"
+import style from "./css/Util.module.css"
 
 export const Icon = (
     { name, extension, height = 24 } : { name : string, extension: string, height? : number }
@@ -27,4 +29,9 @@ export const Button = (
 
 export const HorizontalDivider = () => {
     return <div className="py-1 w-full"><hr className="border border-[hsl(0,0,75)] w-full" /></div>
+}
+
+export const BlurBackground = ({active = false} : {active? : boolean}) => {
+    
+    return <div className={`${style.blur_background} ${active ? style.blur_background_active : ""}`}></div>
 }

@@ -1,0 +1,33 @@
+.nav_mobile {
+    padding: 8px;
+    border: 1px solid hsl(0, 0, 75);
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.nav_mobile_menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid hsl(0, 0, 75);
+    border-radius: 20px;
+    padding: 16px;
+    padding-top: 3rem;
+    transition: all 0.2s ease-in;
+    height: 9rem;
+    width: 10rem;
+    display: none;
+}
+
+.nav_mobile_menu > button {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 36px;
+    height: 36px;
+}
+
+.nav_mobile_menu_active {
+    display: flex;
+}

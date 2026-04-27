@@ -3,8 +3,8 @@ import { DateDivider } from "../components/DateDivider";
 
 export default function Home() {
   return (
-    <main className="max-w-md md:w-full flex flex-col items-center mx-auto px-4">
-
+    <main className="max-w-md flex flex-col items-center mx-auto px-4 pb-8">        
+        
       <DateDivider date="12 Nov, 2026" />
       <DetailsCard>
           <Details
